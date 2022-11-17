@@ -1,2 +1,6 @@
-# OnScreenTimerJava
-<h1>On screen timer written in java.<h1>
+<h2>
+
+On screen timer written in java.
+
+
+<h2>
