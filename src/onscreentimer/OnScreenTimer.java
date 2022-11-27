@@ -52,7 +52,7 @@ public class OnScreenTimer extends JFrame implements ActionListener {
     5 minutes = 300 seconds;    30 minutes = 1800 seconds;
 ************************************************************/
         Timer tm2 = new Timer(1000, (ActionEvent e) -> {
-	    if(seconds != 5){
+	    if(seconds != 1800){
 		seconds++;
 		setTimer();
 	    }else{
