@@ -101,7 +101,9 @@ public class OnScreenTimer extends JFrame implements ActionListener {
 	   Gets screen size and takes screenshot of the indicated region.
 	   In this case the region is entirety of the primary monitor.
 ********************************************************************************/
-            String path = "C:\\Users\\Geoffrey Weiss\\Desktop\\TestPictures\\TestPicture1.jpg";
+
+//          Set the path you want to save the file to: C:\\Users\\USERNAME\\Desktop\\TestPictures\\TestPicture1.jpg
+            String path = "";
 
             Rectangle capture = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
             BufferedImage Image = r.createScreenCapture(capture);
